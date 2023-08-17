@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def add_arg(argv):
     n = len(argv) - 1
     if n == 0:
@@ -12,6 +11,7 @@ def add_arg(argv):
             add += int(argv[i])
             i += 1
         print("{:d}".format(add))
+
 
 if __name__ == "__main__":
     import sys
